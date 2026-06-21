@@ -506,7 +506,7 @@ body {
 }
 
 .gift-card{
-    background:#fff;
+    background:#4e65e9;
     border-radius:20px;
     overflow:hidden;
     box-shadow:0 10px 25px rgba(0,0,0,.08);
@@ -527,21 +527,24 @@ body {
 
 .gift-card:hover img{
     transform:scale(1.08);
+    cursor: pointer;
 }
 
 .gift-content{
     padding:25px;
     text-align:center;
+    
 }
 
 .gift-content h4{
+    color: black;
     font-size:1.3rem;
     font-weight:700;
     margin-bottom:12px;
 }
 
 .gift-content p{
-    color:#666;
+    color:#000000;
     line-height:1.7;
     margin-bottom:0;
 }
