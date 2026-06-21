@@ -83,7 +83,7 @@ body {
     margin-bottom: 15px;
     font-style: italic;
     font-weight: 600;
-    color: #928bf0;
+    color: #07015c;
 
 }
 
@@ -99,7 +99,7 @@ body {
 .hero-content p {
     font-size: 20px;
     margin-bottom: 25px;
-    color: #f1f1f1;
+    color: #ffffff;
 }
 
 .hero-buttons {
@@ -173,7 +173,7 @@ body {
 .fathers-para {
     font-size: 1.1rem;
     line-height: 1.8;
-    color: #f1f1f1;
+    color: #000000;
     max-width: 800px;
     margin: 0 auto;
     font-weight: 400;
