@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+
+    background: linear-gradient(135deg, #ffffff, #0004ff, #3b0101);
+    color: rgb(255, 255, 255);
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    width: 55px;
+    height: 55px;
+    /* position: absolute; */
+    right: 100px;
+    border-radius: 5px;
+    border: #fff solid 1px;
+}
+
+
+.navbar {
+    background-color: #131313;
+    box-shadow: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    position: sticky !important;
+}
+
+.nav-link {
+    color: rgb(255, 0, 0);
+    box-shadow: white;
+    transition: 0.3s ease;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+    transform: scale(1.05);
+    font-size: 20px;
+}
+
+.hero {
+    height: 70vh;
+        background: url("https://media.istockphoto.com/id/2195204713/photo/father-and-son-bonding-in-nature-standing-in-meadow-watching-the-sunset-spending-quality-time.webp?a=1&b=1&s=612x612&w=0&k=20&c=a8fb6-VJEzou3qH2qc5zyXmLMaeJJRoGKi0M19fKHM4=") no-repeat center center/cover;
+
+    position: relative;
+    border: #6b2ef8 solid 1px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.hero-content {
+    position: relative;
+    color: white;
+    z-index: 2;
+    max-width: 700px;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    font-style: italic;
+    font-weight: 600;
+    color: #928bf0;
+
+}
+
+.hero-content h1:hover {
+    font-size: 55px;
+    margin-bottom: 15px;
+    font-style: italic;
+    font-weight: 650;
+    color: #000000;
+    cursor: pointer;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: #f1f1f1;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 12px 25px;
+    background: #ff4d2e;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #e63e22;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid white;
+}
+
+.btn-outline:hover {
+    background: white;
+    color: black;
+}
+.col-md-12 {
+    width: 100%;
+    flex: 0 0 100%;
+}
+.text-center {
+    text-align: center;
+}
+
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.mb-5 {
+    margin-bottom: 3rem;
+}
+.heading2 {
+    font-style:italic;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #08025c;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+}
+.heading2:hover {
+    cursor: pointer;
+    font-style: italic;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #03012b;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+}
+
+.fathers-para {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #f1f1f1;
+    max-width: 800px;
+    margin: 0 auto;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.card-img{
+    height: 250px;
+}
+.card-title {
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 600;
+    color: #1800a1;
+    text-align: center;
+}
+.card-title:hover {
+    font-size: 37px;
+        font-style: italic;
+    font-weight: 600;
+    color: #1100ff;
+    cursor: pointer; 
+}
+.card{
+    border: #1e025f solid 5px;
+    border-radius: 10px;
+    background-color:#c8c5fa
+}
+.card:hover{
+    cursor: pointer;
+    border: #1e025f solid 5px;
+    border-radius: 10px;
+    background-color:#827dd8;
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+}
+.btn{
+    background: #070158;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s;
+    border: #b0abff solid 1px;
+    font-size: 25px;
+    font-style:italic;
+}
+
+.btn:hover {
+    background: #0303a0;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.quotes-section{
+    background-color:#c8c5fa;
+    border: #1e025f solid 5px;
+    border-radius: 10px;
+}
+
+.quote-card{
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    height: 350px;
+    cursor: pointer;
+}
+
+.large-card{
+    height: 450px;
+}
+
+.quote-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+        border: #cfbaff solid 2px;
+
+}
+
+.quote-card:hover img{
+    transform: scale(1.1);
+}
+.wishheading {
+    font-style:italic;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #08025c;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+}
+.wishheading:hover {
+    cursor: pointer;
+    font-style: italic;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #03012b;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgb(255, 255, 255);
+        transform: scale(1.1);
+
+}
+.overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+}
+
+.quote-content{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px;
+    color: #fff;
+    z-index: 2;
+}
+
+.quote-content h3{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.quote-content h4{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.quote-content p{
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.7;
+}
+
+@media(max-width:768px){
+
+    .large-card{
+        height: 350px;
+    }
+
+    .quote-content h3{
+        font-size: 1.4rem;
+    }
+
+    .quote-content h4{
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+.memories-section{
+    background:#f8f9fa;
+}
+
+.timeline-item{
+    position:relative;
+    margin-bottom:80px;
+}
+
+.memory-img{
+    overflow:hidden;
+    border-radius:20px;
+}
+
+.memory-img img{
+    width:100%;
+    height:350px;
+    object-fit:cover;
+    border-radius:20px;
+    transition:.5s;
+}
+
+.memory-img:hover img{
+    transform:scale(1.08);
+}
+
+.memory-card{
+    background:#fff;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    position:relative;
+}
+
+.memory-card span{
+    position:absolute;
+    top:-20px;
+    left:25px;
+    width:55px;
+    height:55px;
+    background:#0d6efd;
+    color:#fff;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.memory-card h3{
+    margin-top:15px;
+    font-weight:700;
+    margin-bottom:15px;
+}
+
+.memory-card p{
+    color:#666;
+    line-height:1.8;
+}
+
+.timeline-item::after{
+    content:'';
+    position:absolute;
+    left:50%;
+    top:0;
+    width:3px;
+    height:100%;
+    background:#0d6efd;
+    transform:translateX(-50%);
+    z-index:-1;
+}
+
+@media(max-width:991px){
+
+    .timeline-item::after{
+        display:none;
+    }
+
+    .memory-card{
+        margin-top:20px;
+    }
+
+    .memory-img img{
+        height:280px;
+    }
+}
