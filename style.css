@@ -337,8 +337,6 @@ body {
     }
 }
 
-
-
 .memories-section{
     background-color:#c8c5fa;
     border: #1e025f solid 5px;
@@ -502,7 +500,9 @@ body {
     }
 }
 .gift-section{
-    background:#f8f9fa;
+    background-color:#c8c5fa;
+    border: #1e025f solid 5px;
+    border-radius: 10px;
 }
 
 .gift-card{
