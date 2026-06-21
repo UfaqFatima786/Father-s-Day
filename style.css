@@ -34,14 +34,14 @@ body {
 }
 
 .nav-link {
-    color: rgb(255, 0, 0);
+    color: rgb(189, 176, 248);
     box-shadow: white;
     transition: 0.3s ease;
     font-size: 20px;
 }
 
 .nav-link:hover {
-    color: #ffffff;
+    color: #8f78f8;
     transform: scale(1.05);
     font-size: 20px;
 }
@@ -285,6 +285,11 @@ body {
         transform: scale(1.1);
 
 }
+.wishespara{
+    color:#000;
+    font-size: 20px;
+    font-style: italic;
+}
 .overlay{
     position: absolute;
     inset: 0;
@@ -334,9 +339,10 @@ body {
 
 
 
-
 .memories-section{
-    background:#f8f9fa;
+    background-color:#c8c5fa;
+    border: #1e025f solid 5px;
+    border-radius: 10px;
 }
 
 .timeline-item{
@@ -362,7 +368,7 @@ body {
 }
 
 .memory-card{
-    background:#fff;
+    background:#5c54a7;
     padding:35px;
     border-radius:20px;
     box-shadow:0 10px 30px rgba(0,0,0,.08);
@@ -384,15 +390,16 @@ body {
     font-size:20px;
     font-weight:bold;
 }
-
 .memory-card h3{
     margin-top:15px;
     font-weight:700;
     margin-bottom:15px;
+    text-align: center;
+    font-style: italic;
 }
 
 .memory-card p{
-    color:#666;
+    color:#ffffff;
     line-height:1.8;
 }
 
